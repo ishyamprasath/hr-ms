@@ -4,57 +4,33 @@ HR Tracker is a private internal hiring system built for companies that want to 
 
 **Features**
 
-Smart Search
+Smart Search: HR types plain English queries. The AI understands intent not just keywords. Finds candidates who match what you mean even if they used different words in their CV.
 
-HR types plain English queries. The AI understands intent not just keywords. Finds candidates who match what you mean even if they used different words in their CV.
+Auto Match: The moment a new job requirement is created the system instantly surfaces the top 10 internal candidates. Zero manual work.
 
-Auto Match
+CV Chat: HR can open any candidate profile and ask questions in plain English. "What is his experience with IoT?" "Has she worked in a startup before?" Gemma reads the CV and answers immediately. No more opening PDF after PDF.
 
-The moment a new job requirement is created the system instantly surfaces the top 10 internal candidates. Zero manual work.
+Profile Freshness Score: Every candidate gets a live score based on how recently their profile was updated. High score means shown first in search. Low score means pushed down automatically. The "10 year developer who still shows as a fresher in the system" problem is gone.
 
-CV Chat
-
-HR can open any candidate profile and ask questions in plain English. "What is his experience with IoT?" "Has she worked in a startup before?" Gemma reads the CV and answers immediately. No more opening PDF after PDF.
-
-Profile Freshness Score
-
-Every candidate gets a live score based on how recently their profile was updated. High score means shown first in search. Low score means pushed down automatically. The "10 year developer who still shows as a fresher in the system" problem is gone.
-
-Auto Database Refresh
-
-When a new job opens the system finds old matching candidates from 2 to 3 years ago and sends them a personalized WhatsApp message automatically. They reply with a new CV. System parses it and updates itself. HR is not involved at any point.
+Auto Database Refresh: When a new job opens the system finds old matching candidates from 2 to 3 years ago and sends them a personalized WhatsApp message automatically. They reply with a new CV. System parses it and updates itself. HR is not involved at any point.
 
 Auto Nudge Engine
 
 At 30, 60, and 90 days, candidates who have not updated their profile get an automatic WhatsApp plus email reminder. Fully scheduled. Nobody has to remember to follow up.
 
-Ethical Sourcing Extension
+Ethical Sourcing Extension: HR spots someone interesting on LinkedIn or GitHub. One click on the browser extension. A TVS branded consent invite is sent to that person. They click to agree. They enter the pool legally. No scraping. No legal risk.
 
-HR spots someone interesting on LinkedIn or GitHub. One click on the browser extension. A TVS branded consent invite is sent to that person. They click to agree. They enter the pool legally. No scraping. No legal risk.
+Consent Certificate: Every candidate has a timestamped record of how and when they gave consent. If anyone ever questions where their data came from, HR pulls up the certificate instantly. Fully compliant with DPDP 2025.
 
-Consent Certificate
+Internal First Check: Before going outside, the system checks current employees too. Someone in one department might be perfect for a role in another. Surfaces automatically. Promotion and lateral transfer opportunities that would otherwise be missed.
 
-Every candidate has a timestamped record of how and when they gave consent. If anyone ever questions where their data came from, HR pulls up the certificate instantly. Fully compliant with DPDP 2025.
+Job Ad Image Generator: HR can generate job ad creatives directly inside the portal using FLUX.2-klein-4B running on HuggingFace Spaces. Type a prompt, get an image. Free via HF token.
 
-Internal First Check
+Job Ad Video Generator: Short video ads for job postings generated using LTX-Video on HuggingFace Spaces. Free.
 
-Before going outside, the system checks current employees too. Someone in one department might be perfect for a role in another. Surfaces automatically. Promotion and lateral transfer opportunities that would otherwise be missed.
+Cost Savings Dashboard: A real time view showing how many candidates were hired from the internal pool, how many Naukri postings were avoided, and exactly how much money was saved. Leadership can see the ROI in rupees at any time.
 
-Job Ad Image Generator
-
-HR can generate job ad creatives directly inside the portal using FLUX.2-klein-4B running on HuggingFace Spaces. Type a prompt, get an image. Free via HF token.
-
-Job Ad Video Generator
-
-Short video ads for job postings generated using LTX-Video on HuggingFace Spaces. Free.
-
-Cost Savings Dashboard
-
-A real time view showing how many candidates were hired from the internal pool, how many Naukri postings were avoided, and exactly how much money was saved. Leadership can see the ROI in rupees at any time.
-
-External Push
-
-Last resort only. One click posts the JD to Naukri, LinkedIn, or Indeed. All incoming applicants are automatically pulled into the internal pool with consent captured. Paid for once, available forever.
+External Push: Last resort only. One click posts the JD to Naukri, LinkedIn, or Indeed. All incoming applicants are automatically pulled into the internal pool with consent captured. Paid for once, available forever.
 
 ---
 
@@ -140,5 +116,3 @@ Everything is free. MongoDB Atlas, Vercel, Render, Google AI Studio, sentence-tr
 Total monthly cost is zero rupees.
 
 Total one-time setup cost is zero rupees.
-
-This replaces a system that costs 3 to 5 lakhs per year.
